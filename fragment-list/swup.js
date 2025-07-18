@@ -2,7 +2,7 @@ import Swup from 'https://unpkg.com/swup@4?module';
 import FragmentPlugin from 'https://www.unpkg.com/@swup/fragment-plugin@1?module';
 import PreloadPlugin from 'https://www.unpkg.com/@swup/preload-plugin@3?module';
 
-console.clear();
+const base = document.querySelector('base')?.getAttribute('href') ?? '/';
 
 const swup = new Swup({
   containers: ["#swup"],
@@ -12,8 +12,8 @@ const swup = new Swup({
       debug: true,
       rules: [
         {
-          from: '/items(.*)',
-          to: '/items(.*)',
+          from: `${base}items(.*)`,
+          to: `${base}items(.*)`,
           containers: ['#items'],
         }
       ]

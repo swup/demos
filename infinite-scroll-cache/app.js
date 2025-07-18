@@ -1,5 +1,3 @@
-console.clear();
-
 import Swup from "https://unpkg.com/swup@4?module";
 import SwupScrollPlugin from "https://unpkg.com/@swup/scroll-plugin@3?module";
 import SwupPreloadPlugin from "https://unpkg.com/@swup/preload-plugin@3?module";
