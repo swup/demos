@@ -1,11 +1,11 @@
 // @ts-check
 
 /**
- * Minimal static server using ES modules.
+ * Minimal static server.
  * - Lists only visible (non-dot) directories if no index.html is present
  * - Serves static files directly
  *
- * Usage: node server.mjs
+ * Usage: node serve.mjs
  */
 
 import http from 'http';

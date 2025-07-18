@@ -19,5 +19,7 @@ git clone git@github.com:swup/demos.git swup-demos
 # go into the directory
 cd swup-demos
 # start the server
-node server.mjs
+npm run serve
+# build the index file
+npm run build
 ```
